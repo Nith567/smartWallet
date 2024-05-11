@@ -26,8 +26,9 @@ export default function Feature() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-[#01A4F1]">
-          Your Wallet Address: {account?.address}
+        <h2 className="text-base font-semibold leading-7 text-[#01A4F1]">
+        {account ? ` Your Wallet Address: ${account?.address}` : "Welcome to Smart Wallet"}
+        
           </h2>
           {account ? (
           <div>
