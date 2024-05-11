@@ -1,1 +1,1 @@
-Smart Wallet PWA demo
+Smart Wallet 
